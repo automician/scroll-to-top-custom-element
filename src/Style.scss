@@ -1,69 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.scroll-button {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.button-hover {
- position: fixed;
- right: 30px;
- top: 30px;
- display: flex;
- flex-direction: row;
- align-items: center;
- color: rgb(130, 127, 127);
- font-weight: 500;
-}
-
-.current-value {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.scroll-button-img {
   width: 40px;
   height: 40px;
-  background-color: rgb(234, 211, 211);
-  border-radius: 50%;
-  margin: 20px 20px 20px 0;
-  cursor: pointer;
-  order: 2;
-}
-
-.current-value-span {
-}
-
-.values-list {
-  display: flex;
-  flex-direction: row;
-  visibility: hidden;
-  order: 1;
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-.values-list-item {
-  padding: 10px 0 10px 10px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.values-list-item:hover {
-  color: rgb(53, 52, 52);
-}
-
-.values-list-item:last-child {
-  padding: 10px;
-}
-
-.button-hover:hover .values-list {
-  opacity: 1;
-  visibility: visible;
 }

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.5219e9f5.css","mappings":"AAAA,eAGE,WAAY,CACZ,eAFA,SAAU,CADV,cAGe,CAChB,mBAIC,YADA,UACY","sources":["Style.scss"],"sourcesContent":[".scroll-button {\r\n  position: fixed;\r\n  left: 30px;\r\n  bottom: 30px;\r\n  cursor: pointer;\r\n}\r\n\r\n.scroll-button-img {\r\n  width: 40px;\r\n  height: 40px;\r\n}"],"names":[],"sourceRoot":""}

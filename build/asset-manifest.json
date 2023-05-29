@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-custom-html/static/css/main.5219e9f5.css",
+    "main.js": "/react-custom-html/static/js/main.d2b9293e.js",
+    "index.html": "/react-custom-html/index.html",
+    "main.5219e9f5.css.map": "/react-custom-html/static/css/main.5219e9f5.css.map",
+    "main.d2b9293e.js.map": "/react-custom-html/static/js/main.d2b9293e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5219e9f5.css",
+    "static/js/main.d2b9293e.js"
+  ]
+}
